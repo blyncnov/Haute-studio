@@ -1,5 +1,7 @@
 import React from "react";
 
+import { FaBars } from "react-icons/fa";
+
 const Navigation = () => {
   return (
     <div className="Navigation__Container">
@@ -18,6 +20,9 @@ const Navigation = () => {
             <li>Blocks</li>
             <button>Join Shoot</button>
           </ul>
+          <div className="Navigation__Mobile">
+            <FaBars style={{ fontSize: "1.5em" , color: "#333" }} />
+          </div>
         </div>
       </div>
     </div>

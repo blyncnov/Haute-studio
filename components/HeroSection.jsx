@@ -32,7 +32,7 @@ const HeroSection = () => {
                 Photoshoot <BsArrowRightCircle />
               </button>
               <button className="demo__btn">
-                Demo <BiRightArrow />
+                Request Demo <BiRightArrow />
               </button>
             </div>
 
