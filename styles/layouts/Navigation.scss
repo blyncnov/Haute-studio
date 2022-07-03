@@ -1,0 +1,91 @@
+@import "../variables/colors";
+
+.Navigation__Container {
+    align-items: center;
+  
+
+    .Navigation__Column {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 13px 0;
+        
+
+        .Navigation__Logo {
+
+            h1 {
+                color: $deep-black;
+
+                span {
+                    color: $black;
+                    font-family: 'Courier New', Courier, monospace;
+                }
+            }
+
+        }
+
+    }
+
+}
+
+.Haute__maxout {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.Navigation__List {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    
+
+    li {
+        color: $black;
+        letter-spacing: .5px;
+        cursor: pointer;
+        font-size: 15px;
+        font-family: roboto, arial, helvetica, sans-serif;
+
+        &:hover {
+            color: black;
+         
+        }
+
+    }
+
+    button {
+        background-color: $black;
+        text-align: center;
+        text-transform: uppercase;
+        user-select: none;
+        vertical-align: middle;
+        white-space: nowrap;
+        min-width: 44px !important;
+        border: 2px solid $black;
+        color: $deep-black;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 12px 20px;
+        text-decoration: none;
+        transition: all .3s ease-in-out;
+        letter-spacing: 1px;
+        cursor: pointer;
+        outline: none;
+        border-radius: 5px;
+        color: $white;
+        line-height: 1.5;
+
+        &:hover {
+            color: black;
+            background-color: transparent;
+            // font-weight: 600;
+        }
+    }
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
