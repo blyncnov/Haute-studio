@@ -1,4 +1,5 @@
-@import "../variables/colors";
+@import "../variables/_colors";
+@import "../variables/_aminations";
 
 .Header__Container {
   height: auto;
@@ -23,6 +24,10 @@
   .HeroSection__Column {
     width: 100%;
 
+    .HeroSection__Image {
+      animation: myAnimFromRight 1s ease 0s 1 normal forwards;
+    }
+
     .HeroSection__Column__Text {
       line-height: 1.5;
 
@@ -32,6 +37,7 @@
         font-family: "Varela Round", sans-serif;
         font-weight: bold;
         letter-spacing: 0.2px;
+        animation: myAnimSlideTop 1s ease 0s 1 normal forwards;
 
         span {
           position: relative;
@@ -79,7 +85,7 @@
           user-select: none;
           vertical-align: middle;
           white-space: nowrap;
-
+          animation: myAnimEntrance 1s ease 0s 1 normal forwards;
           border: 2px solid $black;
           color: $deep-black;
           font-size: 12px;

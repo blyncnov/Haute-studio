@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navigation = () => {
+  const [isClicked, setIsClicked] = useState(false);
+
+  const handleClickToggle = () => {
+    setIsClicked(!isClicked);
+  };
+
   return (
     <div className="Navigation__Container">
       <div className="Haute__maxout">
@@ -12,7 +18,11 @@ const Navigation = () => {
               H<span>|Studio</span>
             </h1>
           </div>
-          <ul className="Navigation__List">
+          <ul
+            className={
+              isClicked ? "Navigation__List active" : "Navigation__List"
+            }
+          >
             <li>Home</li>
             <li>Pages</li>
             <li>Blog</li>
@@ -20,8 +30,12 @@ const Navigation = () => {
             <li>Blocks</li>
             <button>Join Shoot</button>
           </ul>
-          <div className="Navigation__Mobile">
-            <FaBars style={{ fontSize: "1.5em" , color: "#333" }} />
+          <div className="Navigation__Mobile" onClick={handleClickToggle}>
+            {isClicked ? (
+              <FaTimes style={{ fontSize: "1.5em", color: "#333" }} />
+            ) : (
+              <FaBars style={{ fontSize: "1.5em", color: "#333" }} />
+            )}
           </div>
         </div>
       </div>
