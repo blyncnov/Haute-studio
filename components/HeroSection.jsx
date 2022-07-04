@@ -16,8 +16,7 @@ const HeroSection = () => {
         <div className="HeroSection__Column">
           <div className="HeroSection__Column__Text">
             <h1>
-              We all have a <span>photographic</span> memory, some missing only
-              films.
+              We all have a <span>photographic</span> memory JSYK 😂.
             </h1>
             <hr style={{ border: "0.1px solid #e5e2db" }} />
 
