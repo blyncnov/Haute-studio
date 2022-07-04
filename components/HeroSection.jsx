@@ -16,15 +16,18 @@ const HeroSection = () => {
         <div className="HeroSection__Column">
           <div className="HeroSection__Column__Text">
             <h1>
-              Create Your <span>Beautiful</span> Photography Website
+              We all have a <span>photographic</span> memory, some missing only
+              films.
             </h1>
             <hr style={{ border: "0.1px solid #e5e2db" }} />
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              placeat sapiente nisi qui nulla doloremque officiis quod eius
-              cumque ipsum impedit natus repellat, illo et necessitatibus
-              suscipit! Ad, quas mollitia! Maxime, natus.
+              May would Say &quot;Photographer are Violent people People. First
+              they Frame you, then Shoot you and then Hang youb to the
+              wall&quot; , Well thats true, No Objections, Get Fifty shades of
+              Grey in hopes might help you understand White Balance , you might
+              be very WRONG.
+              <br />
             </p>
 
             <div className="HeroSection__Button__Layout">
