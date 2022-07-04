@@ -18,7 +18,7 @@ const HeroSection = () => {
             <h1>
               Create Your <span>Beautiful</span> Photography Website
             </h1>
-            <hr />
+            <hr style={{ border: "0.1px solid #e5e2db" }} />
 
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
@@ -57,9 +57,9 @@ const HeroSection = () => {
         </div>
 
         <div className="HeroSection__Column">
-          <span>
+          <div className="HeroSection__Image">
             <Image src={Camera1} alt="camera" layout="responsive" />
-          </span>
+          </div>
         </div>
       </div>
     </div>
