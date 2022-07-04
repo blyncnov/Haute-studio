@@ -10,7 +10,7 @@
   background-attachment: fixed;
 
   @media (max-width: 768px) {
-    background: linear-gradient(180deg, $white 70%, $yellow 30%);
+    // background: linear-gradient(180deg, $white 70%, $yellow 30%);
     height: auto;
   }
 }
