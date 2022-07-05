@@ -13,7 +13,7 @@ const Navigation = () => {
   useEffect(() => {
     if (window !== undefined) {
       window.addEventListener("scroll", () => {
-        if (window.scrollY > 100) {
+        if (window.scrollY > 60) {
           setShowBg(true);
         } else {
           setShowBg(false);
