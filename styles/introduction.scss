@@ -74,6 +74,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
+  transition: all 0.5s ease-in-out;
 
   &::before {
     content: "";
@@ -103,5 +104,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
+  }
+
+  &:hover {
+    transform: translateY(6px);
   }
 }

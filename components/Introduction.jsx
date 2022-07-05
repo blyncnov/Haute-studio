@@ -14,14 +14,14 @@ const Introduction = () => {
             <h1>Let’s Introduce About Myself</h1>
             <p>
               Beginning blessed second a creepeth. Darkness wherein fish years
-              good air whose after seed appear midst evenin
+              good air whose after seed appear midst evenin .
               <br />
               <br />
               Beginning blessed second a creepeth. Darkness wherein fish years
               good air whose after seed appear midst evenin appear void give
-              third bearing divide one so
+              third bearing divide one so .
             </p>
-            <button>Hire Me </button>
+            <button>Connect with me </button>
           </div>
         </div>
       </div>
