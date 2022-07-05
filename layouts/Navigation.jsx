@@ -32,9 +32,9 @@ const Navigation = () => {
           </ul>
           <div className="Navigation__Mobile" onClick={handleClickToggle}>
             {isClicked ? (
-              <FaTimes style={{ fontSize: "1.5em", color: "#333" }} />
+              <FaTimes style={{ fontSize: "1.8em", color: "#333" }} />
             ) : (
-              <FaBars style={{ fontSize: "1.5em", color: "#333" }} />
+              <FaBars style={{ fontSize: "1.8em", color: "#333" }} />
             )}
           </div>
         </div>

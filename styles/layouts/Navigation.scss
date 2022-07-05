@@ -85,10 +85,10 @@
 
   @media (max-width: 768px) {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: -100%;
-    width: 100%;
+    width: 60%;
     background-color: #e5e2db;
     height: 100vh;
     z-index: 9999;
@@ -116,15 +116,15 @@
 }
 
 @keyframes myAnim {
-	0% {
-		opacity: 0;
-		transform: rotateY(100deg);
-		transform-origin: left;
-	}
+  0% {
+    opacity: 0;
+    transform: rotateY(100deg);
+    transform-origin: left;
+  }
 
-	100% {
-		opacity: 1;
-		transform: rotateY(0);
-		transform-origin: left;
-	}
+  100% {
+    opacity: 1;
+    transform: rotateY(0);
+    transform-origin: left;
+  }
 }
