@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Introduction from "../components/Introduction";
 import WorkSection from "../components/WorkSection";
 import Header from "../layouts/Header";
 
@@ -13,6 +14,7 @@ export default function Home() {
 
       <Header />
       <WorkSection />
+      <Introduction />
     </>
   );
 }

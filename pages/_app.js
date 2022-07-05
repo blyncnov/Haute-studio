@@ -1,5 +1,7 @@
 import "../styles/globals.scss";
+
 import "../styles/work.scss";
+import "../styles/introduction.scss";
 
 import "../styles/layouts/Navigation.scss";
 import "../styles/layouts/Header.scss";
