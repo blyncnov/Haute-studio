@@ -9,9 +9,11 @@
     gap: 2em;
     grid-template-columns: 1fr 1fr;
     line-height: 1.5;
+    position: relative;
 
     .Introduction__Column {
       width: 100%;
+      position: relative;
 
       h1 {
         font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -41,7 +43,7 @@
         letter-spacing: 1px;
         cursor: pointer;
         outline: none;
-        border-radius: 5px;
+        border-radius: 3px;
         color: $white;
         line-height: 1.5;
 
@@ -65,6 +67,41 @@
 
 .Introduction__Image {
   width: 100%;
-  background-color: #ccc;
   height: 100%;
+  border: 1px dotted #ccc;
+  background: url(../public//assests/1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 30%;
+    height: 70%;
+    background-color: red;
+    background: url(../public//assests/2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    height: 60%;
+    background-color: red;
+    background: url(../public//assests/4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
 }

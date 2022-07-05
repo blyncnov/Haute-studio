@@ -16,7 +16,7 @@ const Introduction = () => {
               good air whose after seed appear midst evenin appear void give
               third bearing divide one so
             </p>
-            <button>Connect With Me </button>
+            <button>Hire Me </button>
           </div>
           <div className="Introduction__Column">
             <div className="Introduction__Image">
