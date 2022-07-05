@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
 
   @media (max-width: 768px) {
-  background: linear-gradient(105deg, $white 60%, $yellow 60%);
+    background: linear-gradient(105deg, $white 60%, $yellow 60%);
     height: auto;
   }
 }
@@ -19,6 +19,7 @@
   display: grid;
   grid-template: 1fr / 1fr 1fr;
   align-items: center;
+  padding: 20px 0;
 
   .HeroSection__Column {
     width: 100%;
@@ -133,6 +134,5 @@
   }
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    padding: 20px 0;
   }
 }
