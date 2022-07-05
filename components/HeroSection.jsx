@@ -24,7 +24,8 @@ const HeroSection = () => {
             <p>
               Silly Photographers joke &apos;Get Fifty shades of Grey in hopes
               might help you understand White Balance , you might be very
-              WRONG&apos;
+              WRONG&apos; Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Quod corrupti nam deleniti consectetur
               <br />
             </p>
 
