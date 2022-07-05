@@ -18,9 +18,8 @@ const WorkSection = () => {
                 </div>
                 <h1>EDITING</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima harum ut, cum saepe quisquam tempora laudantium id
-                  necessitatibus autem consequatur!
+                  You&apos;re which creepeth were yielding kind, divide sixten
+                  po gatherin all first fill Seed wherein life. Years one First.
                 </p>
               </div>
               <div className="Work__Box">
@@ -29,9 +28,9 @@ const WorkSection = () => {
                 </div>
                 <h1>SHOOTING</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima harum ut, cum saepe quisquam tempora laudantium id
-                  necessitatibus autem consequatur!
+                  You&apos;re which creepeth were yielding kind, divide sixten
+                  po gatherin all first fill Seed wherein life. Years one
+                  Second.
                 </p>
               </div>
               <div className="Work__Box">
@@ -40,9 +39,8 @@ const WorkSection = () => {
                 </div>
                 <h1>VIDEOS</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima harum ut, cum saepe quisquam tempora laudantium id
-                  necessitatibus autem consequatur!
+                  You&apos;re which creepeth were yielding kind, divide sixten
+                  po gatherin all first fill Seed wherein life. Years one Last.
                 </p>
               </div>
             </div>
