@@ -1,0 +1,42 @@
+@import "variables/_colors";
+
+.Work__Container {
+  padding: 30px 0;
+}
+
+.Work__Section {
+  background-color: white;
+  padding: 0 2em;
+  margin-top: -10%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+
+  @media (max-width: 768px) {
+    margin-top: -20%;
+  }
+}
+
+.Work__Grid {
+  display: grid;
+  grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+  gap: 2em;
+  line-height: 1.5;
+
+  .Work__Box {
+    background-color: transparent;
+    padding: 2em 0;
+
+    h1 {
+      margin: 0.5em 0;
+    }
+
+    p {
+      margin: 0 0 0 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    grid-template: repeat(3, 1fr) / repeat(1, 1fr);
+    gap: 1em;
+  }
+}
