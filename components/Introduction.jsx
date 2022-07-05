@@ -6,6 +6,11 @@ const Introduction = () => {
       <div className="Haute__maxout">
         <div className="introduction__Section">
           <div className="Introduction__Column">
+            <div className="Introduction__Image">
+              {/* <img src="" alt="" /> */}
+            </div>
+          </div>
+          <div className="Introduction__Column">
             <h1>Let’s Introduce About Myself</h1>
             <p>
               Beginning blessed second a creepeth. Darkness wherein fish years
@@ -17,11 +22,6 @@ const Introduction = () => {
               third bearing divide one so
             </p>
             <button>Hire Me </button>
-          </div>
-          <div className="Introduction__Column">
-            <div className="Introduction__Image">
-              {/* <img src="" alt="" /> */}
-            </div>
           </div>
         </div>
       </div>
