@@ -22,11 +22,9 @@ const HeroSection = () => {
             <hr style={{ border: "0.1px solid #e5e2db" }} />
 
             <p>
-              May would Say &quot;Photographer are Violent people People. First
-              they Frame you, then Shoot you and then Hang you to the
-              wall&quot; , Well thats true, No Objections, Get Fifty shades of
-              Grey in hopes might help you understand White Balance , you might
-              be very WRONG.
+              Silly Photographers joke &apos;Get Fifty shades of Grey in hopes
+              might help you understand White Balance , you might be very
+              WRONG&apos;
               <br />
             </p>
 

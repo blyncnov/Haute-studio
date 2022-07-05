@@ -39,16 +39,17 @@ const Navigation = () => {
               </h1>
             </div>
             <ul
+              onClick={handleClickToggle}
               className={
                 isClicked ? "Navigation__List active" : "Navigation__List"
               }
             >
-              <li>Home</li>
-              <li>Pages</li>
-              <li>Blog</li>
-              <li>Element</li>
-              <li>Blocks</li>
-              <button>Join Shoot</button>
+              <li onClick={handleClickToggle}>Home</li>
+              <li onClick={handleClickToggle}>Pages</li>
+              <li onClick={handleClickToggle}>Blog</li>
+              <li onClick={handleClickToggle}>Element</li>
+              <li onClick={handleClickToggle}>Blocks</li>
+              <button onClick={handleClickToggle}>Join Shoot</button>
             </ul>
             <div className="Navigation__Mobile" onClick={handleClickToggle}>
               {isClicked ? (
